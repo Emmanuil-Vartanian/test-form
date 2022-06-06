@@ -1,0 +1,45 @@
+.tableContainer {
+  min-height: calc(100vh - 90px);
+  border: 1px solid #376b8d;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableBody > tr > td,
+.tableHeader > tr > th {
+  border: 0.25px solid #6b7074;
+  text-align: center;
+  padding: 0px;
+  min-width: 115px;
+}
+
+.tableBody > tr > td:first-child,
+.tableHeader > tr > th:first-child {
+  min-width: 58px;
+}
+
+.tableBody > tr > td:first-child {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tableBody > tr > td:first-child:hover {
+  background: #376b8d;
+}
+
+.tableBody > tr > td:first-child:hover path {
+  fill: #fff;
+}
+
+.tableHeader {
+  background: #376b8d;
+  color: #fff;
+}
+
+.tableHeader th {
+  font-weight: normal;
+}

@@ -1,0 +1,29 @@
+.contained,
+.outlined {
+  border-radius: 12px;
+  padding: 5px 14px;
+  border: 1px solid #83ba63;
+  cursor: pointer;
+}
+
+.contained {
+  background: #83ba63;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.contained:hover {
+  background: #fff;
+  color: #83ba63;
+}
+
+.outlined {
+  background: #fff;
+  color: #83ba63;
+  transition: all 0.3s;
+}
+
+.outlined:hover {
+  background: #83ba63;
+  color: #fff;
+}

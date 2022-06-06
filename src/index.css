@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("assets/font/Roboto-Regular.ttf");
+}
+
+*,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto-Regular";
+}
+
+input,
+select {
+  max-width: 236px;
+  width: 100%;
+  border: 0.25px solid #6b7074;
+  padding: 3px 7px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
